@@ -1,0 +1,42 @@
+
+$font-primary: "Noto Sans TC";
+$font-secondary: "Comfortaa";
+$font-third: "Wendy One";
+$container: 1088px;
+$section-margin: 100px;
+
+
+$variable-prefix:             bs- !default; // Deprecated in v5.2.0 for the shorter `$prefix`
+$prefix:                      $variable-prefix !default;
+
+
+$columns:   12;
+$grid-gutter-width: 1.5rem ;
+
+
+$color: (
+  "primary":    #56C4C5,
+  "secondary":  #221E1F,
+  "info-color": #221E1F,
+  "navbtn":     #FF5D50,
+  "platform-p": #747474,
+  "white":      #fff,
+  "black":      #000,
+);
+
+$breakpoint: (
+  "lg": $container + 32px,
+  "md": 768px,
+  "sm": 376px,
+);
+$lineheight: (
+  "banner-p": 29px,
+  "que-ans": 32px
+);
+
+$direction: (
+  "t": top,
+  "r": right,
+  "b": bottom,
+  "l": left
+);
